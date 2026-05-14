@@ -16,7 +16,7 @@ navbar:
 
 # 页脚
 footer:
-  copyright: '© 2025 李嘉钦'
+  copyright: '© 2025 小Jia'
 
 # 文章设置
 article:
@@ -42,7 +42,7 @@ sidebar:
 widgets:
   - type: profile
     position: left
-    author: 李嘉钦
+    author: 小Jia
     author_title: 电力电子学习者
     location: 长沙
     avatar: /images/avatar.png
