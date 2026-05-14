@@ -1,0 +1,74 @@
+# Icarus 6.x 主题配置
+version: 6.1.1
+
+# 导航栏
+navbar:
+  menu:
+    首页: /
+    归档: /archives
+    分类: /categories
+    标签: /tags
+    关于: /about
+  links:
+    GitHub:
+      icon: fab fa-github
+      url: https://github.com/lijiaqin37-eng
+
+# 页脚
+footer:
+  copyright: '© 2025 李嘉钦'
+
+# 文章设置
+article:
+  thumbnail: true
+  readtime: true
+  highlight:
+    theme: atom-one-dark
+    clipboard: true
+    fold: unfolded
+
+# 搜索
+search:
+  type: insight
+
+# 侧边栏
+sidebar:
+  left:
+    sticky: false
+  right:
+    sticky: false
+
+# 侧边栏组件
+widgets:
+  - type: profile
+    position: left
+    author: 李嘉钦
+    author_title: 电力电子学习者
+    location: 长沙
+    avatar: /images/avatar.png
+    avatar_rounded: true
+    social_links:
+      GitHub:
+        icon: fab fa-github
+        url: https://github.com/lijiaqin37-eng
+
+  - type: toc
+    position: left
+
+  - type: categories
+    position: left
+
+  - type: tags
+    position: left
+
+  - type: recent_posts
+    position: right
+
+  - type: archives
+    position: right
+
+# 插件
+plugins:
+  back_to_top: true
+  progressbar: true
+  mathjax: true
